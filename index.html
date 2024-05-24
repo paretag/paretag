@@ -1,1 +1,59 @@
+<html> <head> <title>Image resize & Compress</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<meta name='viewport' content='user-scalable=no,initial-scale=1,maximum-scale=1'/>
+<style>
+
+body{font-family: Arial, Helvetica, sans-serif;}
+.post span{background-color:#eee; padding:6px;line-height:200%;font-family: 'Courier New', monospace}
+br{line-height:120%;}
+</style></head>
+
+<body>
+
+<div class="post">
+In this tutorial you will learn steps to install php in your android mobile
+<br>
+First of all Download termux from f-droid or use below 
+<a href="https://f-droid.org/repo/com.termux_118.apk">link</a>
+<br>
+
+Open termux and type below command then press enter
+<br>
+<span>apt update && apt upgrade</span>
+<br>
+press y when it asks to continue
+
+<br><br>
+Type below command and enter
+<br>
+<span>pkg install php</span>
+<br>
+press y when it asks to continue and n when n is default
+<br><br>
+Give necessary permission to read files by writing below command
+<br>
+<span>termux-setup-storage</span>
+<br>
+Allow to read and write files when prompt
+<br><br>
+Make a folder with  htdocs name in internal storage manually by any file manager app 
+<br>
+
+Go to htdocs folder by typing below command and enter
+<br>
+<span>cd /sdcard/htdocs</span>
+<br><br>
+Start php server by typing below command
+<br>
+
+<span>php -S localhost:8080 -t /sdcard/htdocs</span>
+<br><br>
+Open chrome and type localhost:8080 and hit enter in address bar here you can see your all php,html page running which you will in htdocs folder.
+Now You just need a code editor or a file manager made by php itself by which you can make php file 
+<br>
+You can also try our php file manager 
+
+</div>
 
